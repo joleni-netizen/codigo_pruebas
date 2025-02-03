@@ -9,10 +9,9 @@ def saludar(persona):
             print(letras)
     return len(persona)
 
-# for persona in personas:
-#     print(saludar(persona))
-
 longitud = saludar("un nombre muy largo")
+
 print(longitud)
+print("una nueva linea")
 
 casa3 = Casa()
